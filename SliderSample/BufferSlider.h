@@ -10,4 +10,5 @@
 
 @interface BufferSlider : UISlider
 @property(strong,nonatomic) UIProgressView *bufferProgress;
+-(void)setBufferValue:(CGFloat)value animated:(bool)animated;
 @end
